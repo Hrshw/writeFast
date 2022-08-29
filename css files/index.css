@@ -1,0 +1,35 @@
+.blockquote{
+  margin: 4px;
+  margin-left: 365px;
+  padding: 16px;
+  border-style: outset;
+  box-sizing : border-box;
+  width : 457px;
+  display : block;
+  height : 108px;
+  background-color : rgb(152, 174, 196);
+  border : 0px solid rgb(30,60,90);
+  border-radius : 0 50px 0 50px;
+  color : white;
+  font-size : 130%;
+  font-family : sans-serif;
+  text-align : center;
+}
+video {
+  max-width: 100%;
+  height: auto;
+}
+
+@media screen and (max-width: 900px) {
+  .blockquote{
+    width: fit-content;
+    margin-left: 57px;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .adcamp{
+    width: fit-content;
+    margin-left: 111px;
+  }
+}
